@@ -1,0 +1,25 @@
+{
+  "name": "twitchsr-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "bundledDependencies": ["axios", "dotenv", "tmi.js"],
+  "author": "henry",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "@types/tmi.js": "^1.8.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "tmi.js": "^1.8.5"
+  }
+}
